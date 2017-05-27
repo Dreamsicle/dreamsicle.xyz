@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
+
+@font-face {
+    font-family: "Hallo sans";
+    src: url("fonts/Hallo sans.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Hallo sans black";
+    src: url("fonts/Hallo sans black.otf") format("opentype");
+}
+
+.Hallo-sans { 
+    font-family: "Hallo sans", Verdana, Tahoma;
+}
+
 body {
     background: linear-gradient(to bottom, #fcb836 0%,#e67216 100vh);
 
