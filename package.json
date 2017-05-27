@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dreamsicle/dreamsicle.xyz/issues"
   },
-  "homepage": "https://github.com/Dreamsicle/dreamsicle.xyz#readme"
+  "homepage": "https://github.com/Dreamsicle/dreamsicle.xyz#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
 }
