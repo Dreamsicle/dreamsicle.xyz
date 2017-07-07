@@ -1,0 +1,152 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Chivo';
+    background-color: #e3dfff;
+    color: #222222;
+}
+
+p {margin-bottom: 1.3em; font-size: 1.2em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: 'Work Sans';
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.063em;
+}
+
+h2 {font-size: 3.375em;}
+
+h3 {font-size: 2.25em;}
+
+h4 {font-size: 1.5em;}
+
+small, .font_small {font-size: 0.667em;}
+
+.font-display-unit {
+    background-color: #222222;
+    color: #e3dfff;
+    width: 48%;
+    padding: 2em;
+    border-radius: 15px 15px 5px 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo-display {
+    width: 33.33333%;
+    height: 33.33333%;
+}
+
+.colorbar {
+    text-transform: uppercase;
+    width: 100%;
+    padding: 2em;
+    color: #e3dfff;
+}
+
+#header {
+    background-repeat: repeat;
+    position: absolute;
+    padding-left: 20em;
+    padding-right: 20em;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 25em;
+}
+
+#header h1 {
+    width: calc(100vw - 10em);
+    position: absolute;
+    bottom: 0;
+}
+
+.card {
+    padding: 15px;
+    background-color: #FFE1A8 !important;
+    margin: 5px;
+    text-align: center;
+    flex: 10 0 auto
+}
+
+.purpleBG {
+    background-color: #930E67 !important
+}
+
+.blueBG {
+    background-color: #028090 !important;
+}
+
+/* unvisited link */
+a:link {
+    color: #222222;
+}
+
+/* visited link */
+a:visited {
+    color: #222222;
+}
+
+/* mouse over link */
+a:hover {
+    color: #222222;
+}
+
+/* selected link */
+a:active {
+    color: #e3dfff;
+}
+
+.actualBody {
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 5em;
+    margin-top: 30em;
+}
+
+/* responsive! */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .actualBody {
+        margin-left: 5em;
+        margin-right: 5em;
+      }
+
+      p {margin-bottom: 1.3em; font-size: 1.5em;}
+
+      .font-display {
+          flex-direction: column
+      }
+
+      .colorbar {
+          width: calc(100% - 4em)
+      }
+
+      .work-sans-display {
+          margin-left: 0 !important
+      }
+
+      .chivo-display {
+          margin-bottom: 4em
+      }
+
+      .font-display-unit {
+          width: calc(100% - 4em)
+      }
+}

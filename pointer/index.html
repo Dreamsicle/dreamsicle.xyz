@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Dreamsicle Open Source</title>
+        <link rel="stylesheet" type="text/css" href="../index.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Chivo:400,700|Work+Sans:400,700" rel="stylesheet">
+        <script src="../js/colorSpecific/purple.js" defer></script>
+    </head>
+    <body>
+        <div id="header">
+        <h1 class="accentBG">Pointer</h1>
+        </div>
+        <div class="actualBody">
+
+        <h2 class="accentColor"><img width="40px" src="https://dreamsicle.github.io/branding/Dreamsicle/logo-trans.png"> · Dreamsicle Developer Hub</h2>
+
+        <p class="accentBG" style="margin-left: 86px; padding: 1em;"><small>Summary</small><br>Pointer is a Discord bot designed to be used as a base for other bots. It has an updating system built in, and has few commands on purpose. It is under the BSD 3-Clause license.</p>
+        <p class="accentBG" style="margin-left: 86px; padding: 1em;"><small>Links</small><br><a href="https://github.com/Dreamsicle/pointer">GitHub Repository</a> · <a href="https://github.com/Dreamsicle/pointer/blob/master/config.json.example">Config example</a></p>
+        <p style="margin-left: 86px; padding: 1em; background-color: #C5283D"><small>Warning</small><br>This is pre-release software! Some things might not work as expected.</p>
+
+        <h2>Pre-built functions</h2>
+        <p>At the time of writing, Pointer has one function available that's exclusive to it - <code>sendMessage(embedTitle, embedDescription, messageType)</code>. It sends the data presented to it as an embed in Discord. It is a shorthand for Discord.JS' <code>send</code> function.</p>
+        <h3>embedTitle</h3>
+        <p><code>embedTitle</code> is a string that is sent as the title of the Discord embed.</p>
+        <h3>embedDescription</h3>
+        <p><code>embedDescription</code> is a string that is sent as the body text of the Discord embed.</p>
+        <h3>messageType</h3>
+        <small>Optional</small>
+        <p>At the time of writing, <code>messageType</code> simply changes the color of the message if it's "normal" (command went a-okay, assumed if <code>messageType</code> is not defined) or an "error" (sets embed color to Dreamsicle red).</p>
+        <p>There are no plans, but it will be used for other things in the future.</p>
+
+        </div>
+	    <script src="../js/jquery.min.js"></script>
+	    <script src="../js/geopattern.min.js"></script>
+    </body>
+</html>
