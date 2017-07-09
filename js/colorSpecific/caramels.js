@@ -21,7 +21,7 @@ window.setInterval(function () {
 var pattern = GeoPattern.generate(randString(), {color: randColor()})
 
 $('.patternBG').css('background-image', pattern.toDataUrl())
-}, 508.474576271);
+}, 1500);
 
 $('.accentBG').css('background-color', '#ffbc42')
 $('.accentColor').css('color', '#ffbc42')
